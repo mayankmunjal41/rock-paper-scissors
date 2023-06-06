@@ -1,7 +1,9 @@
 
 let randomText = ['rock', 'paper', 'scissors'];
 
+
 let getComputerChoice = () => {  
+
     return randomText[Math.floor((Math.random() * randomText.length))];
 }
 let computerSelection = getComputerChoice();
